@@ -1,11 +1,15 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-} */
-body{
-    padding: 10%;
-    font-size: 1.5rem;
+}
+body {
+    margin: 0.5rem;
+    font-family: monospace;
+    text-align: center;
+
+    /* padding: 10%;
+    font-size: 1.5rem; */
     /* color: blue; */
     /* font-family: cursive; */
     /* font-family: monospace;
@@ -13,35 +17,71 @@ body{
     font-family: sans-serif;
     font-family: fantasy; */
     /* font-family: 'Courier New', Courier, monospace; */
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
 }
-/* input, button {
-    font: inherit; */
+ol {
+    /* list-style-type: upper-alpha;
+    list-style-type: decimal-leading-zero; */
+   /* list-style-type: armenian;  */
+   /* list-style-type: disc; */
+   /* list-style-type: upper-roman; */
+   /* list-style-type: lower-alpha; */
+}
+/* ul {
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    /* list-style-position: outside; */
+    /* color: blue;
+    line-height: 1.4; */
 
-p{
-    /* text-decoration: underline;
-    text-decoration: overline;
-    text-decoration: line-through;
-    text-decoration: none; */
-    /* text-transform: capitalize; */
-    /* text-transform: lowercase;
-    text-transform: uppercase; */
-}
-p{
-    text-align: justify; */
-    text-align: left;
-    /* text-indent: 2em; */
-    /* line-height: 1.3; */
-    /* letter-spacing: 0.09em; */
-    /* word-spacing: 0.5em;
-    font-weight: bold;
-    font-style: italic;
+          /* "here you include a png of checkmark or something like that " */
+    /* list-style-image: url(IMG-20240215-WA0015.jpg); */
 
+    /* list-style-image: none;  */ */
+/* }
+ul li:nth-child(3){
+    color: red;
+} */
+ 
+ ul ::marker{
+    color: yellow;
+    font-family: fantasy;
+    content: "Only 5 dollars >>  ";
+} 
+nav {
+    border: 2px solid yellowgreen;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 7rem;
 }
-a{
-    color: black;
-    opacity: 0.7;
-}
-a:focus {
+h2{
+    padding: 1rem;
     background-color: gold;
+    border-radius: 2rem 2rem 0 0 ;
+}
+ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+li{
+    border-top: 1px solid #333;
+}
+li a{
+    display: block;
+}
+nav a,
+li a:visited {
+    text-decoration: none;
+    color: #333;
+}
+li a:hover,
+li a:focus {
+    background: #333;
+    color: whitesmoke;
+}
+li:last-child a{
+    border-radius:0 0 2rem 2rem;
 }
